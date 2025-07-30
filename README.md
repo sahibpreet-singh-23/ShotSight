@@ -14,4 +14,4 @@ lr0 = 0.01 (Learning Rate),
 optimzer = SGD (Stochastic Gradient Descent)
 
 The model gives an accuracy of 90.4% on detection of ball and 100% accuracy on detection of hole, giving a total accuracy of approx. 95.24%.
-The putt is achieved when the bounding boxes of both ball and hole overlap with a threshold of 0.2.
+The putt is achieved when the bounding boxes of both ball and hole overlap with a threshold of 20px(area).
